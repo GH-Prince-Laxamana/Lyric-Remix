@@ -141,6 +141,8 @@ $totalAdjectives = count($adjectives);
 $funFact1 = "There are a total of " . ($totalVerbs) . " verbs in the song!";
 $funFact2 = "There are a total of " . ($totalNoun) . " nouns in the song!";
 $funFact3 = "There are a total of " . ($totalAdjectives) . " adjectives in the song!";
+
+$song_photo_link = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYcbhyqwRimbdS0yT-VG0xKNxvgTxYD_ZHiQ&s";
 ?>
 
 <!DOCTYPE html>
@@ -202,7 +204,7 @@ $funFact3 = "There are a total of " . ($totalAdjectives) . " adjectives in the s
 </head>
 
 <body>
-    <img src="cover_photo.jpg" alt="Song Photo">
+    <img src=<?= $song_photo_link ?> alt="Song Photo">
 
     <?= $title ?>
     <?= $artist ?>
@@ -245,5 +247,4 @@ $funFact3 = "There are a total of " . ($totalAdjectives) . " adjectives in the s
 
     <?= $footer_content ?>
 </body>
-
 </html>

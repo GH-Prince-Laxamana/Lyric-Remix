@@ -18,10 +18,10 @@ $verbs = [
 ];
 
 $nouns = [
-        "lovin'", "thing", "hard", "times", "us", "life", "love", 
+        "Lovin'", "thing", "hard", "times", "us", "life", "love", 
         "photograph", "memories", "ourselves", "eyes", "hearts", "time",
         "pocket", "jeans", "you", "home", "soul", "piece", "death", "necklace",
-        "heartbeat", "words", "pages", "lamppost", "street", "phone"
+        "heartbeat", "words", "pages", "lamppost", "Street", "phone"
 ];
 
 $adjectives = [
@@ -66,7 +66,7 @@ $chorus_end = "Wait for me to come home";
 
 // Arrays of Lyrics per Section of the song
 $chorus = [
-    "So you can keep me",
+    "So you can $verbs[4] me",
     "Inside the pocket of your ripped jeans",
     "Holdin' me closer 'til our eyes meet",
     "You won't ever be alone",
@@ -74,8 +74,8 @@ $chorus = [
 ];
 
 $chorus_2 = [
-    "And if you hurt me",
-    "Well, that's okay, baby, only words bleed",
+    "And if you $verbs[0] me",
+    "Well, that's okay, baby, $adjectives[0] words bleed",
     "Inside these pages, you just hold me",
     "And I won't ever let you go",
     $chorus_end
@@ -89,10 +89,10 @@ $chorus_3 = [
 ];
 
 $prechorus = [
-    "We keep this love in a photograph",
+    "We $verbs[4] this love in a photograph",
     "We made these memories for ourselves",
-    "Where our eyes are never closin'",
-    "Hearts are never broken",
+    "Where our eyes are $adjectives[1] closin'",
+    "Hearts are $adjectives[1] broken",
     "And time's forever frozen still"
 ];
 
@@ -100,21 +100,21 @@ $prechorus = [
 $verse_count = 1;
 
 $verse1 = [
-    "Lovin' can hurt",
-    "Lovin' can hurt sometimes",
-    "But it's the only thing that I know",
-    "And when it gets hard",
-    "You know it can get hard sometimes",
-    "It is the only thing that makes us feel alive"
+    "$nouns[0] can $verbs[0]",
+    "$nouns[0] can $verbs[0] sometimes",
+    "But it's the $adjectives[0] $nouns[1] that I know",
+    "And when it gets $nouns[2]",
+    "You know it can get $nouns[2] sometimes",
+    "It is the $adjectives[0] $nouns[1] that makes us feel alive"
 ];
 
 $verse2 = [
-    "Lovin' can heal",
-    "Lovin' can mend your soul",
-    "And it's the only thing that I know, know",
+    "$nouns[0] can $verbs[12]",
+    "$nouns[0] can mend your soul",
+    "And it's the $adjectives[0] thing that I know, know",
     "I swear it will get easier",
     "Remember that with every piece of ya",
-    "Mm, and it's the only thing we take with us when we die"
+    "Mm, and it's the $adjectives[0] thing we take with us when we die"
 ];
 
 $bridge = [
@@ -125,7 +125,7 @@ $bridge = [
 
 $outro = [
     "When I'm away, I will remember how you kissed me",
-    "Under the lamppost back on Sixth Street",
+    "Under the lamppost back on Sixth $nouns[25]",
     "Hearin' you whisper through the phone",
     "Wait for me to come home"
 ];

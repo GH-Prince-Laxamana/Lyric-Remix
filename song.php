@@ -202,7 +202,7 @@ $funFact3 = "There are a total of " . ($totalAdjectives) . " adjectives in the s
 </head>
 
 <body>
-    <img src="cover_photo.jpg">
+    <img src="cover_photo.jpg" alt="Song Photo">
 
     <?= $title ?>
     <?= $artist ?>
@@ -245,4 +245,5 @@ $funFact3 = "There are a total of " . ($totalAdjectives) . " adjectives in the s
 
     <?= $footer_content ?>
 </body>
+
 </html>

@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:900|Raleway:500,700");
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #183c6b;
+  color: #fafbbf;
+  margin: 0px;
+  background-size: 245px 380px;
+  background-position: right top;
+  background-repeat: repeat-y;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  padding: 10px 20px 12px 20px;
+  margin: auto;
+  color: #ffffff;
+  font-size: 3rem;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+p {
+  padding: 6px 20px 6px 20px;
+  margin: 0px;
+}
+
+table {
+  background-color: #850825;
+  margin: 10px;
+  padding: 5px;
+  border: 1px solid #fbccbf;
+  border-spacing: 0px;
+}
+  
+th {
+  text-transform: uppercase;
+  text-align: left;
+  font-size: 0.75em;
+  letter-spacing: 0.2em;
+  padding: 5px 10px;
+  background-color: #fbccbf;
+  color: #850825;
+}
+  
+td {
+  padding: 5px 10px;
+}
+
+a {
+  color: #fbccbf;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+}
+
+nav {
+  padding: 0.5em;
+  background-color: #730720;
+}
+
+nav a {
+  text-transform: uppercase;
+  padding: .5em;
+}
+nav a:hover {
+  color: #fff;
+}
+ 
+.button {
+  background-color: #fbccbf;
+  color: #850825;
+  border-color: #fbccbf;
+  border-radius: 300px;
+  -webkit-transition: .3s background-color linear;
+  -moz-transition: .3s background-color linear;
+  -o-transition: .3s background-color linear;
+  transition: .3s background-color linear;
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 1px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #fcba63;
+  border-radius: 300px;
+  -webkit-transition: .1s background-color linear;
+  -moz-transition: .1s background-color linear;
+  -o-transition: .1s background-color linear;
+  transition: .1s background-color linear;
+  color: #850825;
+}
+  
+.offer {
+  text-transform: uppercase;  
+}
+
+footer, header {
+  background-color: #041842;
+  padding: 10px;
+  width: 100%;
+}
+
+footer p, header p {
+  color: white;
+  font-size: 0.9rem;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  box-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff;
+  border-radius: 10%;
+}
+
+.game-container {
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 1em;
+  border: 1px solid white;
+}
+
+.game-container, .players {
+  margin: 1em auto;
+  text-align: center;
+}
+
+.players {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.note {
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
